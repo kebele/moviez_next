@@ -20,7 +20,8 @@ export default async function Home({ searchParams }) {
 
   //data yı anlamlandırak
   const data = await res.json();
-  console.log(data);
+  // console.log(data);
+
   const results = data.results;
   // consol'dan bir bakalım ne geliyor fetch sonucu buna terminalden bakarız çünkü ssr'da açlışıyor, browser'dan sayfayı yenileyip terminale baalım,
   // console.log(results);
