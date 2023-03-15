@@ -3,7 +3,7 @@ import MenuItem from "./MenuItem";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 import Link from "next/link";
-import DarkModeSwitch from "./darkModeSwitch";
+import DarkModeSwitch from "./DarkModeSwitch";
 
 export default function Header() {
   return (
